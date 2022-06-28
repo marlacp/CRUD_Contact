@@ -1,0 +1,83 @@
+form {
+  width: 90%;
+  max-width: 300px;
+  background-color: #fff;
+  padding: 33px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px 20px 20px 20px;
+}
+
+label {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #1E1E1F;
+  margin-bottom: 0.5rem;
+}
+
+
+
+.ContactFormUpdate-buttonContainer {
+  margin-top: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.ContactFormUpdate-button {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    width: 9rem;
+    height: 3rem;
+    border: none;
+    font-family: 'Montserrat';
+    border-radius: 10px 10px 10px 10px;
+}
+
+.ContactFormUpdate-button--add {
+    background: #ECB365;
+    box-shadow: 0px 5px 25px rgb(97 218 250 / 50%);
+}
+.ContactFormUpdate-button--add:hover {
+    background: #FFE652;
+    color: #1A374D;
+}
+
+.ContactFormUpdate-button--cancel {
+    background: #557B83;
+    box-shadow: 0px 5px 25px rgb(97 218 250 / 50%);
+}
+.ContactFormUpdate-button--cancel:hover {
+    background: #6998AB;
+}
+
+input {
+    background: #F9FBFC;
+    border: 2px solid #7D9D9C;
+    margin-bottom: 0.6rem;
+    height: 2rem;
+    width: 14rem;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: #1E1E1F;
+    border-radius: 10px 10px 10px 10px;
+}
+
+input::placeholder {
+  color: #A5A5A5;
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+input:focus {
+  outline-color: #61DAFA;
+}

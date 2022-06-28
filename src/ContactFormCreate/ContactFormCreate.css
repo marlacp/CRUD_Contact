@@ -1,0 +1,83 @@
+form {
+  width: 90%;
+  max-width: 300px;
+  background-color: #fff;
+  padding: 33px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px 20px 20px 20px;
+}
+
+label {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #1E1E1F;
+  margin-bottom: 0.5rem;
+}
+
+
+
+.ContactFormCreate-buttonContainer {
+  margin-top: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.ContactFormCreate-button {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    width: 9rem;
+    height: 3rem;
+    border: none;
+    font-family: 'Montserrat';
+    border-radius: 10px 10px 10px 10px;
+}
+
+.ContactFormCreate-button--add {
+    background: #39AEA9;
+    box-shadow: 0px 5px 25px rgb(97 218 250 / 50%);
+}
+.ContactFormCreate-button--add:hover {
+    background: #95D1CC;
+    color: #1A374D;
+}
+
+.ContactFormCreate-button--cancel {
+    background: #557B83;
+    box-shadow: 0px 5px 25px rgb(97 218 250 / 50%);
+}
+.ContactFormCreate-button--cancel:hover {
+    background: #6998AB;
+}
+
+input {
+    background: #F9FBFC;
+    border: 2px solid #7D9D9C;
+    margin-bottom: 0.6rem;
+    height: 2rem;
+    width: 14rem;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: #1E1E1F;
+    border-radius: 10px 10px 10px 10px;
+}
+
+input::placeholder {
+  color: #A5A5A5;
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+input:focus {
+  outline-color: #61DAFA;
+}

@@ -1,0 +1,10 @@
+p.noContacts,
+p.error,
+p.Loading {
+    font-weight: 600;
+    font-size: 1.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

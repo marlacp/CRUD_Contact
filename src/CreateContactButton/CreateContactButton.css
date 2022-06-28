@@ -1,0 +1,38 @@
+.CreateContactButton {
+    background-color: #18978F;
+    box-shadow: 0px 5px 25px rgb(97 218 250 / 50%);
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 4rem;
+    width: 14rem;
+    z-index: 1;
+    margin: 1rem;
+    border-radius: 60px 60px 60px 60px;
+}
+
+
+.buttontext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1.buttontext--icon {font-size: 3rem;}
+
+button.CreateContactButton:hover {background-color: #54BAB9;}
+
+h4.buttontext--title,
+h1.buttontext--icon {
+  font-family: 'Montserrat';
+}
+
+h4.buttontext--title {
+    padding: 0 10px;
+}

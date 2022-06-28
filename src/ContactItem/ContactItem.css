@@ -1,0 +1,70 @@
+.ContactItem {
+    background-color: #FAFAFA;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    box-shadow: 0px 5px 50px rgb(32 35 41 / 15%);
+    width: 24rem;
+    border-radius: 20px 20px 20px 20px;
+}
+
+h4.buttontext--title {
+  padding: 0 10px;
+}
+
+p.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 0;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+h4.results {
+  margin: 0;
+  font-weight: 100;
+  padding-top: 0.3rem;
+}
+
+.ContactItem-p {
+  margin: 24px 0 24px 24px;
+  width: calc(100% - 120px);
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+
+span.Icon.Icon-delete {
+    background: #EB5353;
+    margin-right: 2rem;
+    padding: 0.8rem;
+    cursor: pointer;
+    font-size: 1.3rem;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+    width: 6rem;
+}
+
+span.Icon.Icon-delete:hover {
+  background: #FF5D5D;
+}
+.container_actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1.7rem;
+}
+
+@media screen and (max-width:600px) {
+  .ContactItem {
+      width: 100%;
+  }
+}
