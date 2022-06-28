@@ -24,15 +24,15 @@
   align-items: center;
 }
 
-h1.buttontext--icon {font-size: 3rem;}
+span.buttontext--icon {font-size: 3rem;}
 
 button.CreateContactButton:hover {background-color: #54BAB9;}
 
-h4.buttontext--title,
-h1.buttontext--icon {
+span.buttontext--title,
+span.buttontext--icon {
   font-family: 'Montserrat';
 }
 
-h4.buttontext--title {
+span.buttontext--title {
     padding: 0 10px;
 }

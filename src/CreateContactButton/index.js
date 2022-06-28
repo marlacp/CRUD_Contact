@@ -13,10 +13,10 @@ function CreateContactButton(props) {
         onClick={onClickButton}
       >
         <div className='buttontext'>
-          <h4 className='buttontext--title'>
+          <span className='buttontext--title'>
             Crea contactos
-          </h4>
-          <h1 className='buttontext--icon'>+</h1>
+          </span>
+          <span className='buttontext--icon'>+</span>
         </div>
       </button>
     </div>
