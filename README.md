@@ -11,7 +11,7 @@ Esta aplicación permite a un usuario crear una agenda de contactos y permite al
 - Eliminar información de los contactos.
 - Cuenta con un buscador el cual permite al usuario filtrar por el nombre, teléfono o correo electrónico.
 
-###Instalación 
+### Instalación 
 
 Descargas el proyecto, y en tu consola corres el comando:
 `$ npm install `
@@ -24,11 +24,11 @@ Una vez ejecutado te aparecera una interfaz como esta:
 
 ![](https://i.postimg.cc/g2XcC5np/1.png)
 
-Ahora para crear un contacto se de dar clic en el botón > crea contactos y atumaticamente abrirá una ventana emergente:
+Ahora para crear un contacto se de dar clic en el botón crea contactos y atumaticamente abrirá una ventana emergente:
 
 ![](https://i.postimg.cc/CLpWhQPY/2.png)
 
-En ella llenamos el formulario de contactos y damos clic en el botón > Añadir: 
+En ella llenamos el formulario de contactos y damos clic en el botón Añadir: 
 
 ![](https://i.postimg.cc/4dNxS3cL/3.png)
 
