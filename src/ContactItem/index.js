@@ -17,33 +17,36 @@ function ContactItem(props) {
       
       <p className='title'>
         Nombre: 
-        <h4 className='results'>
+        <span className='results'>
           {props.name}
-        </h4>
+        </span>
       </p>
       <p className='title'>
         Teléfono: 
-        <h4 className='results'>
+        <span className='results'>
           {props.phone}
-        </h4>
+        </span>
       </p>
-      <p className='title'>
+      <p 
+        className='title'
+
+        >
         Fecha de nacimiento: 
-        <h4 className='results'>
+        <span className='results'>
           {props.date}
-        </h4>
+        </span>
       </p>
       <p className='title'>
         Dirección: 
-        <h4 className='results'>
+        <span className='results'>
           {props.adr}
-        </h4>
+        </span>
       </p>
       <p className='title'>
         Correo electrónico: 
-        <h4 className='results'>
+        <span className='results'>
           {props.email}
-        </h4>
+        </span>
       </p>
       <div className='container_actions'>
         <UpdateContactButton
