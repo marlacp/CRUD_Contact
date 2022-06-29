@@ -1,30 +1,29 @@
 # CRUD_Contact
-### Create-react-product
+### Create-Contacts
 
 Esta aplicación fue desarrollada con React js, y puedes verla desplegada en el siguiente link:
 `<link>` : https://create-contacts-35e38.web.app/
 
-Esta aplicación permite a un usuario crear una agenda de contactos y permite al usuario:
+Esta aplicación permite a un usuario crear una agenda y realizar las siguientes acciones:
 
 - Actualizar la información de cada contacto.
 - Listar la información de los contactos
 - Eliminar información de los contactos.
-- Cuenta con un buscador el cual permite al usuario filtrar por el nombre, teléfono o correo electrónico.
-
+- Cuenta con un buscador el cual permite al usuario filtrar por el nombre, teléfono, dirección o correo electrónico. 
 ### Instalación 
 
 Descargas el proyecto, y en tu consola corres el comando:
 `$ npm install `
 
-Una vez ejecutado, instalara todas las dependencias, y corres el proyecto con:
+Una vez ejecutado, instalará todas las dependencias, y corres el proyecto con:
 
 `$ npm start`
 
-Una vez ejecutado te aparecera una interfaz como esta:
+Después de ejecutar este comando te aparecera una interfaz como esta:
 
 ![](https://i.postimg.cc/g2XcC5np/1.png)
 
-Ahora para crear un contacto se de dar clic en el botón crea contactos y atumaticamente abrirá una ventana emergente:
+Ahora para crear un contacto se el usuario puede dar clic en el botón "crea contactos" y atumaticamente abrirá una ventana emergente:
 
 ![](https://i.postimg.cc/CLpWhQPY/2.png)
 
@@ -36,10 +35,10 @@ A continuación se podrá visualizar el contacto registrado, donde tendrá dos b
 
 ![](https://i.postimg.cc/zvTDLRYf/4.png)
 
-Para editar un contacto das clic en el botón Actualizar, y se edita en un formulario en este caso se edito el nombre, y se le da clic en el botón actualizar:
+Para Actualizar un contacto el usuario puede dar clic en el botón "Actualizar", y se podrá editar en un formulario, para este ejemplo se edito el nombre, y se le da clic en el botón actualizar:
 ![](https://i.postimg.cc/wvhnL5Mn/5.png)
 
 Una vez actualizado queda de la siguiente manera:
 ![](https://i.postimg.cc/nhgWWSQ6/6.png)
 
-Tambíen puedes hacer uso del buscador para filtrar tus contactos, lo puedes hacer por nombre, teléfono, dirección o correo electrónico. 
+Tambíen puedes hacer uso del botón eliminar contactos si deseao y también por medio del buscador se podrá filtrar todos tus contactos, lo puedes hacer por nombre, teléfono, dirección o correo electrónico. 
